@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "263776546856",
+    "firebase_url": "https://convergevoting.firebaseio.com",
+    "project_id": "convergevoting",
+    "storage_bucket": "convergevoting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263776546856:android:946ed340f4fde5c9",
+        "android_client_info": {
+          "package_name": "com.dev.jrc.convergevoting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263776546856-sgjugukd39faq5u283aa2oqvncts9or7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.jrc.convergevoting",
+            "certificate_hash": "028566bc35b2a205d0e2224d1df49ca633f97849"
+          }
+        },
+        {
+          "client_id": "263776546856-aerkatu5r0mbr8ff7t84q55dtmgmi51p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOkzPhdE-ahu88pC0XEdDm97BMGloMk9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263776546856-aerkatu5r0mbr8ff7t84q55dtmgmi51p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
