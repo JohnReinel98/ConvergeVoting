@@ -91,7 +91,8 @@ public class MenuActivity extends AppCompatActivity
         if (id == R.id.nav_home) {
             // Handle the camera action
         } else if (id == R.id.nav_topics) {
-
+            finish();
+            startActivity(new Intent(this, TopicsActivity.class));
         } else if (id == R.id.nav_profile) {
             startActivity(new Intent(this, ProfileActivity.class));
         } else if (id == R.id.nav_search) {

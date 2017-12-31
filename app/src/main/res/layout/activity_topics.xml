@@ -6,4 +6,37 @@
     android:layout_height="match_parent"
     tools:context="com.dev.jrc.convergevoting.TopicsActivity">
 
+    <ViewStub
+        android:id="@+id/stub_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inflatedId="@+id/topicsLayout"
+        android:layout="@layout/topics_listview"/>
+
+    <ViewStub
+        android:id="@+id/stub_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inflatedId="@+id/topicsLayout"
+        android:layout="@layout/topics_gridview"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="425dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/topicsFab"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_margin="@dimen/fab_margin"
+            android:onClick="SwitchStatePress"
+            android:src="@drawable/ic_grid" />
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
