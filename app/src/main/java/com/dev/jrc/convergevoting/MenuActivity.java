@@ -88,17 +88,17 @@ public class MenuActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_topics) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_profile) {
             startActivity(new Intent(this, ProfileActivity.class));
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_search) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_settings) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_exit) {
             new LovelyStandardDialog(this)
                     .setTopColorRes(R.color.grey)
                     .setButtonsColorRes(R.color.colorPrimary)
@@ -108,7 +108,7 @@ public class MenuActivity extends AppCompatActivity
                     .setPositiveButton(android.R.string.ok, new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            Toast.makeText(getApplicationContext(), "positive clicked", Toast.LENGTH_SHORT).show();
+                            finish();
                         }
                     })
                     .setNegativeButton(android.R.string.no, null)

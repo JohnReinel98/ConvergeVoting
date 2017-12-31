@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ConvergeVoting.iml" filepath="$PROJECT_DIR$/ConvergeVoting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ConvergeVoting.iml" filepath="$PROJECT_DIR$/.idea/ConvergeVoting.iml" />
+      <module fileurl="file://C:\Users\johnr\AndroidStudioProjects\ConvergeVoting\ConvergeVoting.iml" filepath="C:\Users\johnr\AndroidStudioProjects\ConvergeVoting\ConvergeVoting.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
